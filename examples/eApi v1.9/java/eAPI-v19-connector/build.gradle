@@ -56,10 +56,10 @@ publishing {
     repositories {
         maven {
             name 'nexus'
-            url "https://nexus.ders.cool/repository/maven-releases/"
+            url nexusUrl 
             credentials {
-                username project.repoUser
-                password project.repoPassword
+                username repoUser
+                password repoPassword
             }}
     }
 }
