@@ -8,6 +8,7 @@ import lombok.*;
 
 @EqualsAndHashCode(callSuper = false)
 @Data
+@NoArgsConstructor //(hp)
 @AllArgsConstructor
 @RequiredArgsConstructor
 @JsonInclude(value = JsonInclude.Include.NON_NULL)

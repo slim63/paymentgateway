@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.EnumMap;
 
-@Component
+//(hp)@Component
 @Slf4j
 public class RunModeProviderImpl implements BeanPostProcessor, RunModeProvider {
 

@@ -14,7 +14,7 @@ import java.net.URI;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
-@Service
+//(hp)@Service
 public class NativeApiV19ServiceImpl implements NativeApiV19Service {
 
     public static final String NO_RESPONSE_FROM_NATIVE_API_HTTP_RESPONSE = "No response from nativeAPI, http response ";
