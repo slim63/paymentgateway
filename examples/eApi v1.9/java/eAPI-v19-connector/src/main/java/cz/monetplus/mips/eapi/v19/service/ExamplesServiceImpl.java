@@ -14,7 +14,7 @@ import java.io.File;
 import java.net.URI;
 import java.nio.charset.StandardCharsets;
 
-@Service
+//(hp) @Service
 @Slf4j
 public class ExamplesServiceImpl implements ExamplesService {
 

@@ -21,7 +21,10 @@ import java.nio.charset.StandardCharsets;
 import java.security.*;
 import java.security.spec.X509EncodedKeySpec;
 
-@Service
+//(hp) @Service
+/**
+ * (hp) Nahrazeno implementaci org.simplifyworks.kopla.gw.csob.eapi.config.CryptoServiceImpl
+ */
 @Slf4j
 public class CryptoServiceImpl implements CryptoService, InitializingBean {
 

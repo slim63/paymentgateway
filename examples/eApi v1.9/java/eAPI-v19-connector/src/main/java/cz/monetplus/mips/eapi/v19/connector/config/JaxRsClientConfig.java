@@ -18,13 +18,14 @@ import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider;
 @Configuration
 public class JaxRsClientConfig {
 	
-	@Value("${native.api.url}")
+//(hp)	@Value("${native.api.url}")
+	@Value("${kopla.gw.csobEapiUrl}")
 	private String url;
 
 	@Value("${native.api.ssl:true}")
 	private boolean ssl;
 	
-	@Value("${native.api.trust.all.certs:true}")
+	@Value("${native.api.trust.all.certs:false}") //(hp)
 	private boolean trustAllCerts;
 	
 	@Value("${native.api.truststore:}")

@@ -12,9 +12,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-@SpringBootApplication
-@Configuration
-@EnableAspectJAutoProxy
+
+//(hp)@SpringBootApplication
+//(hp)@Configuration
+//(hp)@EnableAspectJAutoProxy
 @Slf4j
 public class Application implements CommandLineRunner {
 	

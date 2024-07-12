@@ -7,7 +7,8 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @JsonInclude(value = JsonInclude.Include.NON_NULL)
-class Customer  extends ApiBase implements Signable {
+public // (hp)
+		class Customer  extends ApiBase implements Signable {
     private String name;
     private String email;
     private String homePhone;
