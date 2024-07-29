@@ -29,7 +29,7 @@ dependencies {
     //implementation 'com.cloudcontrolled:cctrl-api-client:0.1'
     implementation 'joda-time:joda-time:2.10.10'
     implementation 'com.google.code.gson:gson:2.8.7'
-    implementation 'commons-io:commons-io:2.9.0'
+    implementation 'commons-io:commons-io:2.6'
     implementation 'commons-codec:commons-codec:1.15'
     implementation 'commons-lang:commons-lang:2.6'
     implementation 'org.slf4j:slf4j-api:1.7.36'
@@ -43,7 +43,7 @@ dependencies {
 }
 
 group = 'cz.monetplus.mips'
-version = '1.0.0'
+version = '1.0.1'
 description = 'eAPI v1.9 connector - (hp)-fork'
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
